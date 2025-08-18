@@ -2,10 +2,9 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import imgISSAI from '/assets/img/partners/ISSAI.svg'
-import imgSEDS from '/assets/img/partners/NU_SEDS.png'
-import imgNURIS from '/assets/img/partners/NURIS.png'
-import imgFablab from '/assets/img/partners/Fablab.png'
-import imgInstitute from '/assets/img/partners/InstOfBatteries.png'
+import imgImpactFound from '/assets/img/partners/impact_foundation.png'
+import imgNULogo from '/assets/img/partners/nu_logo_b.png'
+import imgNuris from '/assets/img/partners/nuris_x.png'
 
 
 const Partners = () => {
@@ -20,22 +19,19 @@ const Partners = () => {
           </div>
           <div className='md:col-span-2'>
             <div className='grid md:grid-cols-3 items-center gap-6'>
-              <a className='flex justify-center' target="_blank" href="http://seds.nu.edu.kz/">
-                <img className='h-36' src={imgSEDS} alt='NU SEDS' />
+              <a className='flex justify-center' target="_blank" href="https://fund.nu.edu.kz/en/social-impact/">
+                <img className='h-36' src={imgImpactFound} alt='NU Impact Foundation' />
               </a>
               <a className='flex justify-center' target="_blank" href="https://issai.nu.edu.kz/">
                 <img className='h-24' src={imgISSAI} alt='NU ISSAI' />
               </a>
-              <a className='flex justify-center' target="_blank" href="https://nuris.nu.edu.kz/">
-                <img className='h-36' src={imgNURIS} alt='NURIS' />
-              </a>
             </div>
             <div className='mt-8 grid md:grid-cols-2 items-center gap-6'>
-              <a className='flex justify-center' target="_blank" href="https://nuris.nu.edu.kz/fablab">
-                <img className='h-36 bg-white' src={imgFablab} alt='NU Fablab' />
+              <a className='flex justify-center' target="_blank" href="https://nu.edu.kz/">
+                <img className='h-36' src={imgNULogo} alt='Nazarbayev University' />
               </a>
-              <a className='flex justify-center' target="_blank" href="https://batterykazakhstan.com/">
-                <img className='h-36' src={imgInstitute} alt='Institute of Batteries KZ' />
+              <a className='flex justify-center' target="_blank" href="https://nuris.nu.edu.kz">
+                <img className='h-36' src={imgNuris} alt='NURIS' />
               </a>
             </div>
           </div>
