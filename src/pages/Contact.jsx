@@ -82,7 +82,7 @@ const Contact = () => {
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <p className="text-sm text-gray-600">
-          Copyright © 2024 Nazarbayev University Rover Team. All rights reserved.
+          Copyright © 2025 Nazarbayev University Rover Team. All rights reserved.
         </p>
         <p className="text-sm text-gray-600">
           Designed by <a href="https://github.com/sb2rhan" target='_blank'>sb2rhan</a>
