@@ -1,16 +1,16 @@
 import { useTranslation } from 'react-i18next';
 import ProfileCard from 'src/components/common/ProfileCard';
 
-import imgAruzhanNew from '/assets/img/team/ex/Aruzhan New.jpg';
-import imgAldiyar from '/assets/img/team/ex/Aldiyar.jpg';
-import imgChingiz from '/assets/img/team/ex/Chingiz.webp';
 import imgAbylay from '/assets/img/team/ex/Abylay.jpg';
 import imgAibat from '/assets/img/team/ex/Aibat.jpg';
 import imgAizhar from '/assets/img/team/ex/Aizhar.jpg';
+import imgAldiyar from '/assets/img/team/ex/Aldiyar.jpg';
 import imgAlikhan from '/assets/img/team/ex/Alikhan.jpg';
 import imgAlisher from '/assets/img/team/ex/Alisher.jpg';
+import imgAruzhanNew from '/assets/img/team/ex/Aruzhan New.jpg';
 import imgAruzhan from '/assets/img/team/ex/Aruzhan.jpg';
 import imgAssylzat from '/assets/img/team/ex/Assylzat.jpg';
+import imgChingiz from '/assets/img/team/ex/Chingiz.webp';
 import imgDana from '/assets/img/team/ex/Dana.jpg';
 import imgDaniel from '/assets/img/team/ex/Daniel.jpg';
 import imgDenis from '/assets/img/team/ex/Denis.jpg';
@@ -22,8 +22,9 @@ import imgTomiris from '/assets/img/team/ex/Tomiris.jpg';
 import imgYerkebulan from '/assets/img/team/ex/Yerkebulan.jpg';
 import imgZhamila from '/assets/img/team/ex/Zhamila.jpg';
 import imgZhaniya from '/assets/img/team/ex/Zhaniya.jpg';
-import imgZhuldyz from '/assets/img/team/ex/Zhuldyz.jpg';
 import imgZhuldyzNew from '/assets/img/team/ex/Zhuldyz New.webp';
+import imgZhuldyz from '/assets/img/team/ex/Zhuldyz.jpg';
+import imgMansur from '/assets/img/team/ex/Mansur.webp';
 
 
 const Contributors = () => {
@@ -113,6 +114,12 @@ const Contributors = () => {
       position: t('team.infoLeila.position'),
       achievements: t('team.infoLeila.achievements', { returnObjects: true }),
       img: imgLeila
+    },
+    {
+      fullname: t('infoMansur.fullname'),
+      position: t('infoMansur.position'),
+      achievements: t('infoMansur.achievements', { returnObjects: true }),
+      img: imgMansur
     },
     {
       fullname: t('team.infoMuslim.fullname'),

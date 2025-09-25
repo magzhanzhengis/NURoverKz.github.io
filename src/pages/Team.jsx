@@ -9,7 +9,6 @@ import imgJalgas from '/assets/img/team/Jalgas.webp';
 import imgJalgasbek from '/assets/img/team/Jalgasbek.webp';
 import imgKamila from '/assets/img/team/Kamosh.webp';
 import imgMalika from '/assets/img/team/Malika.webp';
-import imgMansur from '/assets/img/team/Mansur.webp';
 import imgMussa from '/assets/img/team/Mussich.webp';
 import imgNurbanu from '/assets/img/team/Nurbanu.webp';
 import imgSaule from '/assets/img/team/Saule.webp';
@@ -58,12 +57,6 @@ const Team = () => {
         position: t('infoMussa.position'),
         achievements: t('infoMussa.achievements', { returnObjects: true }),
         img: imgMussa
-      },
-      {
-        fullname: t('infoMansur.fullname'),
-        position: t('infoMansur.position'),
-        achievements: t('infoMansur.achievements', { returnObjects: true }),
-        img: imgMansur
       },
       {
         fullname: t('infoBolatkhan.fullname'),
