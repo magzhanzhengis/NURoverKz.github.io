@@ -3,7 +3,7 @@ import ProfileCard from 'src/components/common/ProfileCard';
 
 import imgAruzhanNew from '/assets/img/team/ex/Aruzhan New.jpg';
 import imgAldiyar from '/assets/img/team/ex/Aldiyar.jpg';
-import imgChingiz from '/assets/img/team/Chingiz.jpg';
+import imgChingiz from '/assets/img/team/ex/Chingiz.webp';
 import imgAbylay from '/assets/img/team/ex/Abylay.jpg';
 import imgAibat from '/assets/img/team/ex/Aibat.jpg';
 import imgAizhar from '/assets/img/team/ex/Aizhar.jpg';
@@ -23,7 +23,7 @@ import imgYerkebulan from '/assets/img/team/ex/Yerkebulan.jpg';
 import imgZhamila from '/assets/img/team/ex/Zhamila.jpg';
 import imgZhaniya from '/assets/img/team/ex/Zhaniya.jpg';
 import imgZhuldyz from '/assets/img/team/ex/Zhuldyz.jpg';
-import imgZhuldyzNew from '/assets/img/team/Zhuldyz New.jpg';
+import imgZhuldyzNew from '/assets/img/team/ex/Zhuldyz New.webp';
 
 
 const Contributors = () => {

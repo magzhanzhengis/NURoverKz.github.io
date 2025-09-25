@@ -1,21 +1,21 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-// importing images
 import TeamView from 'src/components/team/TeamView';
-import imgAngelina from '/assets/img/team/Angie.jpg';
-import imgBolatkhan from '/assets/img/team/Bolatkhan.jpg';
-import imgHeghine from '/assets/img/team/Heghine.jpg';
-import imgJalgas from '/assets/img/team/Jalgas.jpg';
-import imgJalgasbek from '/assets/img/team/Jalgasbek.jpg';
-import imgKamila from '/assets/img/team/Kamosh.jpg';
-import imgMalika from '/assets/img/team/Malika.jpg';
-import imgMansur from '/assets/img/team/Mansur.jpg';
-import imgMussa from '/assets/img/team/Mussich.jpg';
-import imgNurbanu from '/assets/img/team/Nurbanu.jpg';
-import imgSaule from '/assets/img/team/Saule.jpg';
-import imgYerassyl from '/assets/img/team/Yerassyl.jpg';
-import imgZhansen from '/assets/img/team/Zhansen.jpeg';
-import imgZhanserik from '/assets/img/team/Zhanserik.jpg';
+
+import imgAngelina from '/assets/img/team/Angie.webp';
+import imgBolatkhan from '/assets/img/team/Bolatkhan.webp';
+import imgHeghine from '/assets/img/team/Heghine.webp';
+import imgJalgas from '/assets/img/team/Jalgas.webp';
+import imgJalgasbek from '/assets/img/team/Jalgasbek.webp';
+import imgKamila from '/assets/img/team/Kamosh.webp';
+import imgMalika from '/assets/img/team/Malika.webp';
+import imgMansur from '/assets/img/team/Mansur.webp';
+import imgMussa from '/assets/img/team/Mussich.webp';
+import imgNurbanu from '/assets/img/team/Nurbanu.webp';
+import imgSaule from '/assets/img/team/Saule.webp';
+import imgYerassyl from '/assets/img/team/Yerassyl.webp';
+import imgZhansen from '/assets/img/team/Zhansen.webp';
+import imgZhanserik from '/assets/img/team/Zhanserik.webp';
 
 const Team = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'team' });
