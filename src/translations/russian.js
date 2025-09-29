@@ -19,7 +19,7 @@ const ru = {
     home: {
       typedArr: ['Центральной Азии', 'Казахстана'],
       headline: 'Nazarbayev University Rover Team',
-      infoStatic: 'Первая команда по строительстве Марсианского ровера из '
+      infoStatic: 'Первая команда по созданию марсохода из '
     },
     careers: {
       typedArr: ['Усердный труд', 'Амбициозные цели'],
