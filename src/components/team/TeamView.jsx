@@ -36,7 +36,7 @@ const TeamView = ({ teamByDepartments }) => {
                   mems.map((m, i) => (
                     <div key={i} className='flex-grow-0 flex-shrink-0 basis-full md:basis-1/4'>
                       <ProfileCard fullname={m.fullname} position={m.position}
-                        img={m.img} achievements={m.achievements} />
+                        img={m.img} />
                     </div>
                   ))
                 }

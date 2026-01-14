@@ -1,3 +1,5 @@
+import { info } from "autoprefixer";
+
 const en = {
   navbar: {
     linkHome: 'Home',
@@ -171,26 +173,49 @@ const en = {
   },
   team: {
     header: 'Meet our team',
-    achievements: 'Achievements',
     caption: 'Hover or click to see more info',
     contributorsLink: 'See our project contributors',
     departments: {
       leads: "Team Leads",
-      me: "Mechanics & Electronics",
+      me: "Mechanics",
       sc: "Software & Control",
       mc: "Marketing & Coordination",
       sn: "Science",
-      mk: "Marketing"
+      mk: "Electronics"
+    },
+    infoAidana: {
+      fullname: 'Aidana Karayeva',
+      position: '',
+      achievements: []},
+    infoMeiirzhan: {
+      fullname: 'Meiirzhan Duisenov',
+      position: '',
+      achievements: [],
+    },
+    infoAknur: {
+      fullname: 'Aknur Sarsembayeva',
+      position: '',
+      achievements: [],
+    },
+    infoDaulet: {
+      fullname: 'Daulet Marlambekov',
+      position: '',
+      achievements: [],
+    },
+    infoNazerke: {
+      fullname: 'Nazerke Doszhanova',
+      position: '',
+      achievements: [],
     },
     infoHeghine: {
       fullname: 'Heghine Aghajanyan',
-      position: 'Team Leader/Mechanical Team',
+      position: 'Ex-team Leader/Mechanical Team',
       achievements: ['2nd place Microsoft International AI Hackathon',
         '"Cosmothon" engineering championship organiser with over 100 participants']
     },
     infoKamilaTashimova: {
       fullname: 'Kamila Tashimova',
-      position: 'Co-head of Software/Control System Team',
+      position: '',
       achievements: [],
     },
     infoAngelina: {
@@ -215,17 +240,17 @@ const en = {
     },
     infoJalgas: {
       fullname: 'Zhalgas Beisenbay',
-      position: 'Mechanical Team',
+      position: '',
       achievements: [],
     },
     infoJalgasbek: {
       fullname: 'Zhalgasbek Tleu',
-      position: 'Software/Control System Team',
+      position: 'Team Leader',
       achievements: [],
     },
     infoMalika: {
       fullname: 'Malika Meiramova',
-      position: 'Marketing/Branding Team',
+      position: '',
       achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
     },
     infoMansur: {
@@ -240,7 +265,7 @@ const en = {
     },
     infoSaule: {
       fullname: 'Saule Kazetova',
-      position: 'Mechanical Team',
+      position: '',
       achievements: [],
     },
     infoYerassyl: {
@@ -409,7 +434,7 @@ const en = {
     },
     infoMussa: {
       fullname: 'Mussa Aliyev',
-      position: 'Mechanical Team',
+      position: '',
       achievements: ['Intern at SpaceLab designing 3D printers for spacetech', 'Head of Structural Mechanics team in NU Rocketry']
     }
   },
@@ -432,6 +457,12 @@ const en = {
       achievements: ['President of Robotics in Ala-Too International University',
         'Research Assistant in PCMC and Smart Energy laboratories']
     },
+    infoHeghine: {
+  fullname: 'Heghine Aghajanyan',
+  achievements: ['2nd place Microsoft International AI Hackathon', '"Cosmothon" engineering championship organiser with over 100 participants']
+},
+
+
   },
   advisers: {
     header: 'Advisory board',
@@ -455,6 +486,10 @@ const en = {
     infoSalimgerey: {
       fullname: 'Salimgerey Adilov',
       achievements: ['Teaching assistantship from Worcester Polytechnic Institute', 'Research interest in the field of synthesis of polymeric materials']
+    },
+    infoBagheri: {
+      fullname: 'Mehdi Bagheri',
+      achievements: []
     },
     infoZorbas: {
       fullname: 'Dimitrios Zormpas',

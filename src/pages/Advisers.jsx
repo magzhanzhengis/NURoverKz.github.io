@@ -7,6 +7,7 @@ import imgKostas from '/assets/img/advisers/Kostas.jpg'
 import imgSalimgerey from '/assets/img/advisers/Salimgerey.jpg'
 import imgVarol from '/assets/img/advisers/Varol.jpeg'
 import imgZorbas from '/assets/img/advisers/Zorbas.jpg'
+import imgBagheri from '/assets/img/advisers/Bagheri.jpg' 
 
 const Advisers = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'advisers' });
@@ -19,20 +20,18 @@ const Advisers = () => {
         <p className='font-light lg:font-normal text-center mt-2 mb-8'>{t('caption')}</p>
 
         <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4">
-          <ProfileCard fullname={t('infoJamwal.fullname')} img={imgJamwal}
-            achievements={t('infoJamwal.achievements', { returnObjects: true })} />
+          <ProfileCard fullname={t('infoJamwal.fullname')} img={imgJamwal} />
 
-          <ProfileCard fullname={t('infoVarol.fullname')} img={imgVarol}
-            achievements={t('infoVarol.achievements', { returnObjects: true })} />
+          <ProfileCard fullname={t('infoVarol.fullname')} img={imgVarol} />
 
-          <ProfileCard fullname={t('infoKostas.fullname')} img={imgKostas}
-            achievements={t('infoKostas.achievements', { returnObjects: true })} />
+          <ProfileCard fullname={t('infoKostas.fullname')} img={imgKostas} />
 
-          <ProfileCard fullname={t('infoSalimgerey.fullname')} img={imgSalimgerey}
-            achievements={t('infoSalimgerey.achievements', { returnObjects: true })} />
+          <ProfileCard fullname={t('infoSalimgerey.fullname')} img={imgSalimgerey} />
 
-          <ProfileCard fullname={t('infoZorbas.fullname')} img={imgZorbas}
-            achievements={t('infoZorbas.achievements', { returnObjects: true })} />
+          <ProfileCard fullname={t('infoBagheri.fullname')} img={imgBagheri} />
+
+          <ProfileCard fullname={t('infoZorbas.fullname')} img={imgZorbas} />
+
         </div>
       </div>
     </div>
