@@ -5,6 +5,7 @@ import imgISSAI from '/assets/img/partners/ISSAI.svg'
 import imgImpactFound from '/assets/img/partners/impact_foundation.png'
 import imgNULogo from '/assets/img/partners/nu_logo_b.png'
 import imgNuris from '/assets/img/partners/nuris_x.png'
+import imgFablab from '/assets/img/partners/fablab.webp'
 
 
 const Partners = () => {
@@ -26,13 +27,16 @@ const Partners = () => {
                 <img className='h-24' src={imgISSAI} alt='NU ISSAI' />
               </a>
             </div>
-            <div className='mt-8 grid md:grid-cols-2 items-center gap-6'>
+            <div className='mt-8 grid md:grid-cols-3 items-center gap-6'>
               <a className='flex justify-center' target="_blank" href="https://nu.edu.kz/">
                 <img className='h-36' src={imgNULogo} alt='Nazarbayev University' />
               </a>
               <a className='flex justify-center' target="_blank" href="https://nuris.nu.edu.kz/machineshop">
                 <img className='h-36' src={imgNuris} alt='NURIS' />
               </a>
+              <div className='flex justify-center'>
+                <img className='h-36' src={imgFablab} alt='FabLab' />
+              </div>
             </div>
           </div>
         </div>
