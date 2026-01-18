@@ -187,6 +187,11 @@ const en = {
       fullname: 'Aidana Karayeva',
       position: '',
       achievements: []},
+    infoNazira: {
+      fullname: 'Nazira Akmoldayeva',
+      position: '',
+      achievements: [],   
+    },
     infoDias: {
       fullname: 'Dias Amantay',
       position: '',

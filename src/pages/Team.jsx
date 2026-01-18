@@ -12,6 +12,7 @@ import imgJalgasbek from '/assets/img/team/Jalgasbek.webp';
 import imgKamila from '/assets/img/team/Kamosh.webp';
 import imgMalika from '/assets/img/team/Malika.webp';
 import imgMussa from '/assets/img/team/Mussich.webp';
+import imgNazira from '/assets/img/team/Nazira.webp';
 import imgNurbanu from '/assets/img/team/Nurbanu.webp';
 import imgSaule from '/assets/img/team/Saule.webp';
 import imgYerassyl from '/assets/img/team/Yerassyl.webp';
@@ -45,6 +46,11 @@ const Team = () => {
         fullname: t('infoAlmaz.fullname'),
         position: t('infoAlmaz.position'),
         img: imgAlmaz
+      },
+      {
+        fullname: t('infoNazira.fullname'),
+        position: t('infoNazira.position'),
+        img: imgNazira
       },
       {
         fullname: t('infoDias.fullname'),
