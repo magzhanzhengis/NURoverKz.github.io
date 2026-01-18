@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import TeamView from 'src/components/team/TeamView';
 
+import imgAlmaz from '/assets/img/team/Almaz.webp';
 import imgAngelina from '/assets/img/team/Angie.webp';
 import imgBolatkhan from '/assets/img/team/Bolatkhan.webp';
 import imgHeghine from '/assets/img/team/Heghine.webp';
@@ -38,6 +39,11 @@ const Team = () => {
         fullname: t('infoJalgas.fullname'),
         position: t('infoJalgas.position'),
         img: imgJalgas
+      },
+      {
+        fullname: t('infoAlmaz.fullname'),
+        position: t('infoAlmaz.position'),
+        img: imgAlmaz
       },
       {
         fullname: t('infoAidana.fullname'),

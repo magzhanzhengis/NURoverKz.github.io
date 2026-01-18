@@ -188,12 +188,17 @@ const en = {
       position: '',
       achievements: []},
     infoMeiirzhan: {
-      fullname: 'Meiirzhan Duisenov',
+      fullname: 'Meiirzhan Yersain',
       position: '',
       achievements: [],
     },
     infoAknur: {
       fullname: 'Aknur Sarsembayeva',
+      position: '',
+      achievements: [],
+    },
+    infoAlmaz: {
+      fullname: 'Almaz Orymbetov',
       position: '',
       achievements: [],
     },
