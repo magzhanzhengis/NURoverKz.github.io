@@ -5,6 +5,7 @@ import TeamView from 'src/components/team/TeamView';
 import imgAlmaz from '/assets/img/team/Almaz.webp';
 import imgAngelina from '/assets/img/team/Angie.webp';
 import imgBolatkhan from '/assets/img/team/Bolatkhan.webp';
+import imgDias from '/assets/img/team/Dias.webp';
 import imgHeghine from '/assets/img/team/Heghine.webp';
 import imgJalgas from '/assets/img/team/Jalgas.webp';
 import imgJalgasbek from '/assets/img/team/Jalgasbek.webp';
@@ -44,6 +45,11 @@ const Team = () => {
         fullname: t('infoAlmaz.fullname'),
         position: t('infoAlmaz.position'),
         img: imgAlmaz
+      },
+      {
+        fullname: t('infoDias.fullname'),
+        position: t('infoDias.position'),
+        img: imgDias
       },
       {
         fullname: t('infoAidana.fullname'),
@@ -94,6 +100,7 @@ const Team = () => {
         position: t('infoMeiirzhan.position'),
         img: imgZhansen
       },
+
       {
         fullname: t('infoAknur.fullname'),
         position: t('infoAknur.position'),

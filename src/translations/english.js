@@ -187,6 +187,11 @@ const en = {
       fullname: 'Aidana Karayeva',
       position: '',
       achievements: []},
+    infoDias: {
+      fullname: 'Dias Amantay',
+      position: '',
+      achievements: [],
+    },
     infoMeiirzhan: {
       fullname: 'Meiirzhan Yersain',
       position: '',
